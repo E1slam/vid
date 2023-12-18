@@ -1,0 +1,201 @@
+ /* تنسيق للشاشات الصغيرة مثل الهواتف المحمولة */
+ @media screen and (max-width: 767px) {
+ /* قواعد CSS هنا */
+ }
+ 
+ /* تنسيق للشاشات المتوسطة مثل الأجهزة اللوحية */
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+ /* قواعد CSS هنا */
+ }
+ 
+ /* تنسيق للشاشات الكبيرة مثل أجهزة سطح المكتب */
+ @media screen and (min-width: 1024px) {
+ /* قواعد CSS هنا */
+ }
+ 
+ *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+ scroll-behavior: smooth;
+ 
+  }
+ 
+ body{
+ 
+ background-color: black;
+
+ }
+ 
+  header{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px;
+  border-bottom-left-radius: 130px;
+  border-bottom-right-radius: 130px;
+  
+  }
+  
+  
+  .nav , a{
+ padding: 5px 15px;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: 500;
+  }
+  
+ a:hover{
+ 
+ border-radius: 0px 30px ;
+ border-color:red;
+ border-style: solid;
+ 
+ }
+ .texto{
+ text-shadow: 2px 3px 5px red;
+ }
+ .text{
+ color: blue;
+ }
+ article{
+ display: flex;
+ justify-content: space-between;
+ letter-spacing:2px;
+ 
+ }
+ .text2{
+ color: #ffffff;
+ text-shadow: 2px 1px 3px yellow;
+ }
+ 
+ .home{
+ color: red;
+ font-weight: 600;
+ font-size: 1.8em;
+ font-weight:bold;
+
+ }
+ .form{
+ border-radius: 8px;
+ width: 130px;
+
+ }
+ 
+ .text1{
+ direction: rtl;
+ background-color: #FFC7FF;
+ clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+ width: 90%;
+ height:50%;
+ transition: 0.7s ease;
+ text-shadow: 2px 1px 4px red;
+ }
+ .text3{
+ margin: 0px 0px 0px 35px;
+ }
+ 
+ .text4{
+ text-align:center;
+
+ }
+ 
+ fieldset{
+ color: #ffffff;
+ direction: rtl;
+ }
+ .text6{
+ text-shadow: 2px 2px 3px red;
+ 
+ }
+  
+.text7{
+ text-decoration: line-through;
+ }
+ 
+ .text8{
+ background-color: #1FAAFF;
+ width : 8.5em;
+ height: 2.1em;
+ border-radius:20px;
+ font-size: 1.1em;
+ font-weight: 600; 
+ transition: 0.7s ease;
+ outline: 1px solid yellow;
+ }
+  .text8:hover{
+ background-color: #4D78FF;
+ transform: scale(1.1); color: #ffffff;
+ }
+ 
+ .text9{
+ color: yellow;
+ direction: rtl;
+ line-height: 35px;
+ 
+ }
+ 
+ .textk{
+ background-color: #EC446B;
+ clip-path: polygon(15% 80%, 96% 12%, 96% 12%, 100% 11%, 100% 7%, 100% 13%, 26% 85%, 6% 94%, 6% 66%, 24% 55%);
+ width: 95%;
+ height: 85%;
+ transition: 0.7s ease;
+ color: #EC446B;
+ }
+ 
+ .textk:hover{
+ background-color:#EC1F1C;
+ transform: scale(1.1);
+ color: #ec1f1c;
+ }
+ 
+ section{
+ 
+ border-width:4px;
+ border-color: red;
+ border-style: solid;
+ border-radius: 60px;
+ 
+ }
+ .textt{
+ margin-left:2%;
+ margin-top: 10%;
+ border-width:1px;
+ border-color: yellow;
+ border-style: solid;
+ border-radius: 70px;
+ box-shadow: 4px 4px 5px 6px #EC4008;
+ }
+ 
+ .text10{
+ color: red;
+ direction : rtl;
+ line-height: 37px;
+ }
+ 
+ .text11{
+ direction: rtl;
+ line-height: 40px;
+ text-shadow: 2px 1px 3px red;
+ }
+ .text12{
+ color: red;
+ font-size: 20px;
+ font-weight: bold;
+ text-shadow: 1px 1px 2px yellow;
+ }
+ 
+ footer{
+  background-color: #dddd;
+  text-align: center;
+ border-radius: 50px;
+ }
+ 
+ .oo:hover{
+ border-radius: 20px;
+ background-color: red;
+ box-shadow: 2px 2px 5px blue;
+ 
+ }
